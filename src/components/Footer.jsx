@@ -90,7 +90,7 @@ const Footer = () => {
                             <input id="email" type="text" className=" w-full px-4 py-3 mt-2 text-blue-600  rounded-full bg-transparent formBorder-gradient  focus:outline-none focus:ring-0" placeholder='enter your Email' />
                                
                             </div>
-                            <ul className="mt-8 flex gap-6 text-white">                                                                                                         
+                            <ul className="mt-8 flex gap-6 text-white flex-wrap">                                                                                                         
                                 <li className='p-2  justify-center items-center flex bg-gradient-to-r from-[#FC466B]/10 to-[#3F5EFB]/10 hover:from-[#FC466B]/30 rounded-md hover:to-[#3F5EFB]/30 duration-200 hover:scale-125 cursor-pointer'>
                                     <span >
                                        <RiFacebookFill size={25}/>

@@ -17,13 +17,13 @@ function App() {
       <Header />
 
       <HeroSec />
-      <MarqueeSection id="technologies"/>
+      <MarqueeSection />
       <Services />
-      <Explore id="explore"/>
-      <AboutUs id="header"/>
-      <CustomTech id="header"/>
-      <FAQs id="header"/>
-      <ContactUs id="header"/>
+      <Explore />
+      <AboutUs/>
+      <CustomTech/>
+      <FAQs/>
+      <ContactUs/>
     
 
     <Footer />

@@ -19,7 +19,7 @@ const servicesData = [
     },
     {
       heading: 'Graphics / Ui Ux Design',
-      paragraph: "Elevate your brand with stunning graphics and intuitive UI/UX design that captivates your audience. From eye-catching logos to seamless user experiences, our design experts are here to bring your vision to life with style and flair. Let's create something unforgettable together!",
+      paragraph: "Elevate your brand with stunning graphics and intuitive UI/UX design that captivates your audience. From eye-catching logos to seamless user experiences, our design experts are here to bring your vision to life with style, creativity, innovation, and flair. Let's create something unforgettable together!",
       img: img1,
       animate: 'animate-cloud'
     },
