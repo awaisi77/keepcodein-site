@@ -9,13 +9,15 @@ import { AiFillPieChart } from "react-icons/ai";
 import { LuCopyPlus } from "react-icons/lu";
 import { MdAutoGraph } from "react-icons/md";
 import { GrContactInfo } from "react-icons/gr";
+import { Link } from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-[#110D2E] w-full z-50 ">
+    <Disclosure as="nav" className="bg-[#110D2E] w-full z-50 fixed top-0">
       {({ open }) => (
         <>
           <div className="mx-auto container px-2 sm:px-4 lg:px-8 ">
@@ -45,35 +47,42 @@ export default function Header() {
                   <div className="rounded-md  px-3 py-2 font-medium text-lg text-white hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 ">
                     Home
                   </div>
+
                   <div
 
                     className="rounded-md px-3 py-2  font-medium text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
                   >
-                    Services
+                    <AnchorLink href='#services'>Services </AnchorLink>
                   </div>
                   <div
 
                     className="rounded-md px-3 py-2 font-medium text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
                   >
-                    Projects
+                    Case Studies
                   </div>
                   <div
 
                     className="rounded-md px-3 py-2  font-medium text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
                   >
-                    Calendar
+                    Careers
                   </div>
                   <div
 
                     className="rounded-md px-3 py-2  font-medium text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
                   >
-                    Calendar
+                    Testimonials
                   </div>
                   <div
 
                     className="rounded-md px-3 py-2  font-medium text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
                   >
-                    Calendar
+                    <AnchorLink href='#about'>About</AnchorLink>
+                  </div>
+                  <div
+
+                    className="rounded-md px-3 py-2  font-medium text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
+                  >
+                    <AnchorLink href='#contact'>Contact</AnchorLink>
                   </div>
                 </div>
               </div>
@@ -104,24 +113,24 @@ export default function Header() {
 
           <Disclosure.Panel className="lg:hidden bg-[#080326] mt-3 mx-10 py-4 pb-8 bg-gradient-to-r from-[#FC466B]/10 to-[#3F5EFB]/10 ">
 
-          <div class=" absolute inset-0 left-0 top-0  bg-gradient-to-b w-[33%] h-[200px] rounded-full  blur-3xl from-purple-600/60 opacity-50 -z-10 via-purple-500/60 to-purple-400/60 "></div>
+            <div class=" absolute inset-0 left-0 top-0  bg-gradient-to-b w-[33%] h-[200px] rounded-full  blur-3xl from-purple-600/60 opacity-50 -z-10 via-purple-500/60 to-purple-400/60 "></div>
 
 
             <div className="space-y-3 flex flex-col  mx-[15%]  pb-3 pt-2">
 
-            <div class="p-[1px] relative  my-5 mt-10 ">
-              <input id="username" type="text" className=" w-full px-4 py-2 mt-4 text-blue-600 opacity-70   bg-transparent  formBorder-gradient  focus:outline-none focus:ring-0" placeholder='enter your name' />
-                  <button type="submit" class="absolute right-0 top-0 mt-7 mr-4 z-50">
-                    <CiSearch className='h-5 w-5 fill-current text-white' />
-                  </button>
-                </div>
-        
+              <div class="p-[1px] relative  my-5 mt-10 ">
+                <input id="username" type="text" className=" w-full px-4 py-2 mt-4 text-blue-600 opacity-70   bg-transparent  formBorder-gradient  focus:outline-none focus:ring-0" placeholder='enter your name' />
+                <button type="submit" class="absolute right-0 top-0 mt-7 mr-4 z-50">
+                  <CiSearch className='h-5 w-5 fill-current text-white' />
+                </button>
+              </div>
+
               <div class="p-[1px] relative bg-[#110D2E] rounded-full my-5 mt-10 bg-gradient-to-r from-[#FC466B] to-[#3F5EFB]">
-                  <input class="px-2 py-2 w-full text-[#3F5EFB] border-none rounded-full bg-inherit z-50 focus:outline-none" type="text" id="name" placeholder="Enter Your Name" />
-                  <button type="submit" class="absolute right-0 top-0 mt-2 mr-4 z-50">
-                    <CiSearch className='h-5 w-5 fill-current text-white' />
-                  </button>
-                </div>
+                <input class="px-2 py-2 w-full text-[#3F5EFB] border-none rounded-full bg-inherit z-50 focus:outline-none" type="text" id="name" placeholder="Enter Your Name" />
+                <button type="submit" class="absolute right-0 top-0 mt-2 mr-4 z-50">
+                  <CiSearch className='h-5 w-5 fill-current text-white' />
+                </button>
+              </div>
 
 
               {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}

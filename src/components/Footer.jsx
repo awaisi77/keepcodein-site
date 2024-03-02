@@ -4,6 +4,7 @@ import { RiFacebookFill } from "react-icons/ri";
 import { FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { VscGithub } from "react-icons/vsc";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 const Footer = () => {
@@ -68,7 +69,7 @@ const Footer = () => {
                                     <span   className="text-gray-400 text-[17px] hover:text-[#6318F1]   hover:opacity-75 cursor-pointer "> Testimonials  </span>
                                     </li>
                                     <li>
-                                    <span   className="text-gray-400 text-[17px] hover:text-[#6318F1]   hover:opacity-75 cursor-pointer "> About Us </span>
+                                    <span   className="text-gray-400 text-[17px] hover:text-[#6318F1]   hover:opacity-75 cursor-pointer ">     <AnchorLink  offset='100' href='#about'>About Us </AnchorLink> </span>
                                     </li>
                                     <li>
                                     <span   className="text-gray-400 text-[17px] hover:text-[#6318F1]   hover:opacity-75 cursor-pointer "> Contact Us </span>
