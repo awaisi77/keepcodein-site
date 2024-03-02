@@ -32,55 +32,55 @@ export default function Header() {
                 />
               </div>
 
-              <div className="lg:flex justify-center px-2 hidden lg:ml-6 ">
+              <div className="lg:flex justify-center px-2 hidden ml-2 xl:ml-6 ">
                 <div class="p-[1px] relative bg-[#110D2E] opacity-60 rounded-full max-w-sm bg-gradient-to-r from-[#FC466B] to-[#3F5EFB]">
-                  <input class="px-3 py-2 w-full text-[#3F5EFB] border-none  rounded-full bg-inherit z-50 focus:outline-none" type="text" id="name" placeholder="Enter Your Name" />
-                  <button type="submit" class="absolute right-0 top-0 mt-3 mr-4 z-50">
+                  <input class="px-3 2xl:py-2 py-1 w-full text-[#3F5EFB] border-none  rounded-full bg-inherit z-50 focus:outline-none" type="text" id="name" placeholder="Enter Your Name" />
+                  <button type="submit" class="absolute right-0 top-0 2xl:mt-3 mt-2 mr-4 z-50">
                     <CiSearch className='h-5 w-5 fill-current text-white' />
                   </button>
                 </div>
               </div>
 
               <div className="hidden lg:ml-6 lg:block ">
-                <div className="flex space-x-4">
+                <div className="flex spax-x-2 xl:space-x-4 ">
                   {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                  <div className="rounded-md  px-3 py-2 font-medium text-lg text-white hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 ">
+                  <div className="rounded-md  px-3 py-2 font-medium text-sm 2xl:text-lg  text-white hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 ">
                     Home
                   </div>
 
                   <div
 
-                    className="rounded-md px-3 py-2  font-medium text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
+                    className="rounded-md px-3 py-2 font-medium text-sm 2xl:text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
                   >
                     <AnchorLink href='#services'>Services </AnchorLink>
                   </div>
                   <div
 
-                    className="rounded-md px-3 py-2 font-medium text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
+                    className="rounded-md px-3 py-2 font-medium text-sm 2xl:text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
                   >
-                    Case Studies
+                    Case
                   </div>
                   <div
 
-                    className="rounded-md px-3 py-2  font-medium text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
+                    className="rounded-md px-3 py-2  font-medium text-sm 2xl:text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
                   >
                     Careers
                   </div>
                   <div
 
-                    className="rounded-md px-3 py-2  font-medium text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
+                    className="rounded-md px-3 py-2  font-medium text-sm 2xl:text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
                   >
                     Testimonials
                   </div>
                   <div
 
-                    className="rounded-md px-3 py-2  font-medium text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
+                    className="rounded-md px-3 py-2  font-medium text-sm 2xl:text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
                   >
                     <AnchorLink href='#about'>About</AnchorLink>
                   </div>
                   <div
 
-                    className="rounded-md px-3 py-2  font-medium text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
+                    className="rounded-md px-3 py-2  font-medium text-sm 2xl:text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
                   >
                     <AnchorLink href='#contact'>Contact</AnchorLink>
                   </div>
@@ -103,11 +103,13 @@ export default function Header() {
               </div>
 
 
-              <div className="hidden lg:ml-4 lg:block">
-                <button class="px-6 py-2 bg-[#6318F1] text-white font-bold rounded-full transition-transform transform-gpu  hover:shadow-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 hover:scale-105 duration-150">
+              <div className="hidden ml-2 lg:block flex-1">
+                <button class="2xl:px-6 px-2 py-2 bg-[#6318F1] text-[10px]  xl:text-sm text-white font-bold rounded-full transition-transform transform-gpu  hover:shadow-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 hover:scale-105 duration-150">
                   Apply Now
                 </button>
               </div>
+
+
             </div>
           </div>
 

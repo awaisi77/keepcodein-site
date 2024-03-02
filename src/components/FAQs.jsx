@@ -50,9 +50,9 @@ const FAQs = () => {
                                                         <span className="text-base font-semibold leading-7">{faq.question}</span>
                                                         <span className="ml-6 flex h-7 items-center">
                                                             {open ? (
-                                                                <MdKeyboardArrowDown className="h-6 w-6" aria-hidden="true" />
-                                                            ) : (
                                                                 <MdKeyboardArrowUp className="h-6 w-6" aria-hidden="true" />
+                                                            ) : (
+                                                                <MdKeyboardArrowDown className="h-6 w-6" aria-hidden="true" />
                                                             )}
                                                         </span>
                                                     </Disclosure.Button>
@@ -82,9 +82,9 @@ const FAQs = () => {
                                                         <span className="text-base font-semibold leading-7">{faq.question}</span>
                                                         <span className="ml-6 flex h-7 items-center">
                                                             {open ? (
-                                                                <MdKeyboardArrowDown className="h-6 w-6" aria-hidden="true" />
-                                                            ) : (
                                                                 <MdKeyboardArrowUp className="h-6 w-6" aria-hidden="true" />
+                                                            ) : (
+                                                                <MdKeyboardArrowDown className="h-6 w-6" aria-hidden="true" />
                                                             )}
                                                         </span>
                                                     </Disclosure.Button>

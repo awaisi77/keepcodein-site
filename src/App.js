@@ -16,14 +16,14 @@ function App() {
     <>
       <Header />
 
-      <HeroSec />
+      {/* <HeroSec />
       <MarqueeSection />
-      <Services />
+      <Services /> */}
       <Explore />
       <AboutUs/>
-      <CustomTech/>
-      <FAQs/>
-      <ContactUs/>
+      {/* <CustomTech/> */}
+      {/* <FAQs/> */}
+      {/* <ContactUs/> */}
     
 
     <Footer />

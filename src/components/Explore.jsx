@@ -69,12 +69,12 @@ const Explore = () => {
           <div className='order-3 md:order-2'>
 
             <ul className='flex lg:gap-x-4 gap-x-2 items-center justify-center'>
-              <li className='cursor-pointer hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>All</li>
-              <li className='cursor-pointer hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Fashion</li>
-              <li className='cursor-pointer hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Music</li>
-              <li className='cursor-pointer hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Video</li>
-              <li className='cursor-pointer hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Game</li>
-              <li className='cursor-pointer hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Real Estate</li>
+              <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>All</li>
+              <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Fashion</li>
+              <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Music</li>
+              <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Video</li>
+              <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Game</li>
+              <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Real Estate</li>
             </ul>
 
           </div>
