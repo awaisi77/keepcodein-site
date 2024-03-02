@@ -15,7 +15,7 @@ import { GrContactInfo } from "react-icons/gr";
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-[#110D2E] top-0 fixed w-full z-50 ">
+    <Disclosure as="nav" className="bg-[#110D2E] w-full z-50 ">
       {({ open }) => (
         <>
           <div className="mx-auto container px-2 sm:px-4 lg:px-8 ">

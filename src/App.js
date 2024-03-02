@@ -20,8 +20,8 @@ function App() {
       <Explore />
       <AboutUs />
       <CustomTech />
-      <FAQs />
-      <ContactUs />
+      {/* <FAQs /> */}
+      {/* <ContactUs /> */}
 
       <Footer />
 

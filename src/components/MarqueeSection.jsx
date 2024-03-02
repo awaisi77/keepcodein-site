@@ -10,7 +10,7 @@ const MarqueeSection = () => {
     <>
     <div className=''>
     <div className='flex  justify-center items-center py-4 mt-10 '>
-        <h1 className='text-3xl font-semibold text-white '>
+        <h1 className='text-3xl font-semibold text-white  text-center'>
         Skilled across 25+ updated tech stacks
         </h1>
       </div>

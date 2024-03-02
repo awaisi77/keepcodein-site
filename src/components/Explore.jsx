@@ -63,12 +63,12 @@ const Explore = () => {
     <>
 
       <div className='container mx-auto relative'>
-        <div className=' flex lg:justify-between justify-center flex-wrap gap-x-20 gap-y-5 items-center text-white lg:px-20 pt-20 lg:pt-44'>
+        <div className=' flex lg:justify-between justify-center flex-wrap gap-x-20 gap-y-5 items-center text-white px-4 lg:px-20 pt-20 lg:pt-44'>
           <h1 className='text-3xl order-1 md:order-1 text-white font-semibold'>Case Studies</h1>
 
           <div className='order-3 md:order-2'>
 
-            <ul className='flex gap-x-4 items-center justify-center'>
+            <ul className='flex lg:gap-x-4 gap-x-2 items-center justify-center'>
               <li className='cursor-pointer hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>All</li>
               <li className='cursor-pointer hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Fashion</li>
               <li className='cursor-pointer hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Music</li>
@@ -104,11 +104,13 @@ const Explore = () => {
       <div class="lg:hidden xs:flex my-5  overflow-x-scroll no-scrollbar hide-scroll-bar"  >
 
         <div class="flex flex-nowrap gap-x-12 pt-5 px-8 py-10" >
-              <Cards />
-              <Cards />
-              <Cards />
-              <Cards />
-              <Cards />
+        {explorecards.map((explore, index) => (
+                  <Cards 
+                    key={index} 
+                    img={explore.img} 
+                    heading={explore.heading}
+                  />
+                ))}
         </div>
 
       </div>

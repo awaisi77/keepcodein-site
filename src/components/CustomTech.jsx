@@ -54,12 +54,12 @@ const CustomTech = () => {
           <ShadowCircle width={60} height={60} position={"bl"} fromColor={"#b46ffe"} toColor={"#050023"} />
         </div>
 
-        <div className='lg:w-[70%] flex flex-col  text-white gap-y-10 z-10'>
-          <h1 className='text-9xl font-bold '>CUSTOM</h1>
-          <h1 className='text-9xl font-bold text-end '>TECHNOLOGY</h1>
+        <div className='w-[100%] px-4 flex flex-col  text-white gap-y-10 z-10'>
+          <h1 className='lg:text-9xl text-5xl font-bold '>CUSTOM</h1>
+          <h1 className='lg:text-9xl text-5xl font-bold  text-end'>TECHNOLOGY</h1>
         </div>
 
-        <div className='my-16 text-white flex flex-col gap-y-8 text-lg'>
+        <div className='my-16 mx-4 text-white flex flex-col gap-y-8 text-lg'>
           <p> Enhance your digital presence, or revolutionize your industry.</p>
           <div className='flex justify-center gap-4'>
             <div className="">
@@ -76,7 +76,7 @@ const CustomTech = () => {
           </div>
         </div>
 
-        <div className='z-10'>
+        <div className='z-10 px-4'>
           <img src={imgTech} alt="" />
         </div>
 
