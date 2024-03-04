@@ -40,7 +40,7 @@ body::-webkit-scrollbar-track {
 
    /* Handle */
    body::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to bottom, #FC466B, #3F5EFB); /* Gradient background of the scrollbar handle */
+    background-image: linear-gradient(to bottom,#1e0347, #FC466B, #3F5EFB, #1e0347); /* Gradient background of the scrollbar handle */
 }
 
 /* Handle on hover */

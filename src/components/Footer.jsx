@@ -12,10 +12,10 @@ const Footer = () => {
     return (
     <div className=" ">
             <div className='bg-[#050025] mx-auto bg-gradient-to-t from-[#FC466B]/20 via-[#b50ea2]/20 to-[#050030]/20 mt-32'>
-            <footer className="container mx-auto px-4">
-                <div className="mx-auto max-w-screen-xl space-y-8  pt-16 pb-8 sm:px-6 lg:space-y-16 ">
-                    <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-                        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3">
+            <footer className="container mx-auto ">
+                <div className="mx-auto max-w-screen-xl space-y-8  pt-16 pb-8  lg:space-y-16 ">
+                    <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+                        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3">
                             <div>
                                 <p className="font-medium text-xl text-white">Quick Links</p>
                                 <ul className="mt-6 space-y-4 text-sm">
@@ -90,7 +90,7 @@ const Footer = () => {
                             <input id="email" type="text" className=" w-full px-4 py-3 mt-2 text-blue-600  rounded-full bg-transparent formBorder-gradient  focus:outline-none focus:ring-0" placeholder='enter your Email' />
                                
                             </div>
-                            <ul className="mt-8 flex gap-6 text-white flex-wrap">                                                                                                         
+                            <ul className="mt-8 flex gap-4 text-white flex-wrap">                                                                                                         
                                 <li className='p-2  justify-center items-center flex bg-gradient-to-r from-[#FC466B]/10 to-[#3F5EFB]/10 hover:from-[#FC466B]/30 rounded-md hover:to-[#3F5EFB]/30 duration-200 hover:scale-125 cursor-pointer'>
                                     <span >
                                        <RiFacebookFill size={25}/>

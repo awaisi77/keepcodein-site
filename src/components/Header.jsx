@@ -10,6 +10,7 @@ import { LuCopyPlus } from "react-icons/lu";
 import { MdAutoGraph } from "react-icons/md";
 import { GrContactInfo } from "react-icons/gr";
 import { Link } from 'react-router-dom';
+
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
@@ -79,16 +80,12 @@ export default function Header() {
                     <AnchorLink href='#about'>About</AnchorLink>
                   </div>
                   <div
-
                     className="rounded-md px-3 py-2  font-medium text-sm 2xl:text-lg text-gray-300 hover:text-[#6318F1] cursor-pointer hover:scale-105 duration-200 "
                   >
                     <AnchorLink href='#contact'>Contact</AnchorLink>
                   </div>
                 </div>
               </div>
-
-
-
 
               <div className="flex ">
                 {/* Mobile menu button */}
@@ -103,7 +100,7 @@ export default function Header() {
               </div>
 
 
-              <div className="hidden ml-2 lg:block flex-1">
+              <div className="hidden ml-2 lg:block ">
                 <button class="2xl:px-6 px-2 py-2 bg-[#6318F1] text-[10px]  xl:text-sm text-white font-bold rounded-full transition-transform transform-gpu  hover:shadow-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 hover:scale-105 duration-150">
                   Apply Now
                 </button>
