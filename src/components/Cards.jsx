@@ -5,7 +5,7 @@ import { FaHeart } from "react-icons/fa";
 const Cards = ({img, heading}) => {
   return (
         
-                            <div className="w-[250px] bg-gradient-to-l bg-[#110D2E]  from-[#110D2E] via-[#110D2E] to-[#fc466a4a]  shadow-lg rounded-xl p-3">
+                            <div className="flex-shrink-0 w-[250px] bg-gradient-to-l bg-[#110D2E]  from-[#110D2E] via-[#110D2E] to-[#fc466a4a] shadow-lg rounded-xl p-3">
                                 <div className="flex flex-col ">
                                     <div className>
 

@@ -53,7 +53,7 @@ const Services = () => {
     return (
         <div id='services' className='container mx-auto '>
             <div className='flex justify-center  items-center py-12 mt-16 flex-col text-white gap-y-4'>
-                <h1 className='text-3xl font-semibold'>Our Most in Demand Servuce</h1>
+                <h1 className='text-3xl font-semibold text-center'>Our Most in Demand Servuce</h1>
                 <p className='mt-4 w-[50%] text-center'>
                     At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
                     voluptatum deleniti atque corrupti quos dolores et quas molestias
