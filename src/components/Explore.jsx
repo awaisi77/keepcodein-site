@@ -62,7 +62,7 @@ const Explore = () => {
   return (
     <>
 
-      <div className='container mx-auto relative'>
+      <div id='case-study' className='container mx-auto relative'>
         <div className=' flex lg:justify-between justify-center flex-wrap gap-x-20 gap-y-5 items-center text-white px-4 lg:px-20 pt-20 lg:pt-44'>
           <h1 className='text-3xl order-1 md:order-1 text-white font-semibold'>Case Studies</h1>
 

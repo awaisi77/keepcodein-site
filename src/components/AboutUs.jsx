@@ -7,7 +7,7 @@ import img1 from '../assets/aboutimg.png';
 const AboutUs = () => {
     return (
       <div id='about' className='container mx-auto  '>
-          <div className='  my-44 lg:flex justify-center mr-20'>
+          <div className=' my-44 lg:flex justify-center mr-20'>
             <div className='lg:min-w-2/3  flex flex-col gap-y-6 px-16'>
                 <div className='inline-flex'>
                     <h1 class="text-2xl font-bold bg-gradient-to-r from-[#FC466B] to-[#3F5EFB]  text-transparent bg-clip-text">About Us</h1>
