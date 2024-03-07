@@ -60,7 +60,7 @@ const Services = () => {
                 </p>
             </div>
 
-            <div className='relative lg:flex  lg:flex-wrap  lg:gap-8 lg:justify-center '>
+            <div className='relative lg:flex  lg:flex-wrap  lg:gap-8 lg:justify-center lg:px-8 2xl:px-20'>
             <div class=" absolute  right-0  top-32 -z-10  bg-gradient-to-b w-80 rounded-full h-96 blur-3xl from-purple-600 opacity-30 via-purple-500 to-purple-400 "></div>
             {servicesData.map((service, index) => (
                   <ServiceCard 

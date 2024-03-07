@@ -7,7 +7,6 @@ import FAQs from "./components/FAQs";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import Explore from "./components/Explore";
-import LayeredSLider from "./components/LayeredSLider";
 import HeroSec from "./components/HeroSec";
 
 function App() {

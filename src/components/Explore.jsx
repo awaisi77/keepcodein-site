@@ -62,8 +62,8 @@ const Explore = () => {
   return (
     <>
 
-      <div id='case-study' className='container mx-auto relative'>
-        <div className=' flex lg:justify-between justify-center flex-wrap gap-x-20 gap-y-5 items-center text-white px-4 lg:px-20 pt-20 lg:pt-44'>
+      <div id='case-study' className='container mx-auto relative '>
+        <div className=' flex lg:justify-between justify-center flex-wrap gap-x-20 gap-y-5 items-center text-white px-4 lg:px-20 pt-20 lg:pt-44 mx-20'>
           <h1 className='text-3xl order-1 md:order-1 text-white font-semibold'>Case Studies</h1>
           <div className='order-3 md:order-2'>
 
@@ -88,7 +88,7 @@ const Explore = () => {
 
         <div className='lg:block hidden'>
           <div class=" absolute inset-0 translate-x-[10px]  top-32 -z-10  bg-gradient-to-b w-80 rounded-full h-96 blur-3xl from-purple-600 opacity-30 via-purple-500 to-purple-400 "></div>
-          <div className='flex flex-wrap gap-x-10  gap-y-10 mt-10 justify-center'>
+          <div className='flex flex-wrap gap-x-10  gap-y-10 mt-10 justify-center px-20'>
           {explorecards.map((explore, index) => (
                   <Cards 
                     key={index} 

@@ -15,7 +15,6 @@ const MarqueeSection = () => {
         </h1>
       </div>
       <div className='flex flex-col   gap-y-5 py-10 bg-[#0d0924]'>
-
         <Marquee
           fade={true}
           direction="left"

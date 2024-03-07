@@ -6,9 +6,9 @@ import img1 from '../assets/aboutimg.png';
 
 const AboutUs = () => {
     return (
-      <div id='about' className='container mx-auto  '>
-          <div className=' my-44 lg:flex justify-center md:mr-20 px-2'>
-            <div className='lg:min-w-2/3 flex flex-col gap-y-6 md:px-16'>
+      <div id='about' className='container mx-auto'>
+          <div className=' my-44 lg:flex justify-center md:mr-20 px-2 sm:mx-20'>
+            <div className='lg:min-w-[55%] flex flex-col gap-y-6 md:px-16 '>
                 <div className='inline-flex'>
                     <h1 class="text-2xl font-bold bg-gradient-to-r from-[#FC466B] to-[#3F5EFB]  text-transparent bg-clip-text">About Us</h1>
                 </div>
@@ -53,7 +53,7 @@ const AboutUs = () => {
             </div>
 
             <div className=' lg:min-w-[40%] lg:py-0 py-6  lg:block hidden text-white text-3xl'>
-                <div className='relative w-full h-full bg-blue-500 mx-20 rounded-ss-[10%] rounded-se-[10%] rounded-ee-[30%] rounded-es-[10%]'>
+                <div className='relative w-[80%] h-full bg-blue-500 mx-20 rounded-ss-[10%] rounded-se-[10%] rounded-ee-[30%] rounded-es-[10%]'>
                 <img src={img1} alt="" className='absolute -left-20 -top-5 animate-cloud'/>
                 </div>
             </div>

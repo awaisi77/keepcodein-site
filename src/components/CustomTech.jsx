@@ -7,7 +7,7 @@ import imgTech from '../assets/Group 785.png'; // Adjust the path as per your di
 const CustomTech = () => {
   return (
     <div className='container mx-auto'>
-      <div className='relative w-full flex justify-center flex-col items-center '>
+      <div className='relative w-full flex justify-center flex-col items-center overflow-hidden'>
 
         <div className='absolute top-10 left-[19%] animate-pulse'>
           <ShadowBox width={60} height={60} border={"border-gradient-l"} />
@@ -76,10 +76,9 @@ const CustomTech = () => {
           </div>
         </div>
 
-        <div className='z-10 px-4'>
-          <img src={imgTech} alt="" />
+        <div className='z-10 px-4 w-[80%]'>
+          <img src={imgTech} alt="" className=' mx-auto'/>
         </div>
-
       </div>
     </div>
   )

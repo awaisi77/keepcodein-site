@@ -20,7 +20,7 @@ const ServiceCard = ({img, animate, heading, paragraph}) => {
                 </div>
 
                 <div className='w-[60%] md:w-[40%] lg:w-[33%] h-full px-2 mx-auto'>
-                    <img className={`w-full h-full ${animate} `} title='image' src={img}  >
+                    <img className={`w-full h-full ${animate} `} title='image' src={img} alt='img-animate' >
                     </img>
                 </div>
             </div>

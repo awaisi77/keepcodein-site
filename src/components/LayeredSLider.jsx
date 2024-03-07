@@ -10,15 +10,7 @@ import 'swiper/css';
 import Cards from './Cards';
 
 import health from '../assets/CGI/health.png'; 
-import robotics from '../assets/CGI/robotics.png'; 
-import casino from '../assets/CGI/casino.png'; 
-import contruction from '../assets/CGI/contruction.png'; 
-import influencer from '../assets/CGI/influencer.png'; 
-import NFT from '../assets/CGI/NFT.png'; 
-import survey from '../assets/CGI/survey.png'; 
-import sports from '../assets/CGI/sports.png'; 
-import shoes from '../assets/CGI/shoes.png'; 
-import portfolio from '../assets/CGI/portfolio.png'; 
+
 
 
 const LayeredSLider = () => {
@@ -30,7 +22,7 @@ const LayeredSLider = () => {
       spaceBetween={0}
 
       loop={true}
-      slidesPerView={2}
+    slidesPerView={2}
       coverflowEffect={{
         rotate: 0,
         stretch: 0,

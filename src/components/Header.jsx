@@ -9,7 +9,6 @@ import { AiFillPieChart } from "react-icons/ai";
 import { LuCopyPlus } from "react-icons/lu";
 import { MdAutoGraph } from "react-icons/md";
 import { GrContactInfo } from "react-icons/gr";
-import { Link } from 'react-router-dom';
 
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
