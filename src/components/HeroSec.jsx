@@ -29,7 +29,7 @@ const HeroSec = () => {
 
                 </div>
 
-                <div className='  lg:pb-0 py-10  px-2  sm:px-20 md:mx-auto md:w-[80%] lg:px-8 xl:px-20 2xl:px-36'>
+                <div className='  lg:pb-0 py-10  px-2  sm:px-20 md:mx-auto md:w-[80%] lg:px-8 xl:px-16 2xl:px-20'>
                     <LayeredSLider />
                 </div>
             </div>

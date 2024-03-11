@@ -123,13 +123,7 @@ export default function Header() {
                 </button>
               </div>
 
-              <div class="p-[1px] relative bg-[#110D2E] rounded-full my-5 mt-10 bg-gradient-to-r from-[#FC466B] to-[#3F5EFB]">
-                <input class="px-2 py-2 w-full text-[#3F5EFB] border-none rounded-full bg-inherit z-50 focus:outline-none" type="text" id="name" placeholder="Enter Your Name" />
-                <button type="submit" class="absolute right-0 top-0 mt-2 mr-4 z-50">
-                  <CiSearch className='h-5 w-5 fill-current text-white' />
-                </button>
-              </div>
-
+    
 
               {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
               <Disclosure.Button

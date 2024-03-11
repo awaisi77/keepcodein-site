@@ -2,8 +2,8 @@ import React from 'react'
 
 const ServiceCard = ({img, animate, heading, paragraph}) => {
     return (
-        <div className='bg-gradient-to-l from-[#59D3AA] to-[#050023] hover:bg-red-400 duration-300 flex justify-center overflow-hidden items-center lg:w-[48%] border-l-8 border-[#59D3AA]  '>
-            <div className=' md:flex bg-[#050023]  items-center m-2 w-full  duration-300' >
+        <div className='bg-gradient-to-l from-[#59D3AA] to-[#050023] hover:bg-red-400 duration-300 flex justify-center overflow-hidden py-2 items-center lg:w-[48%] border-l-8 border-[#59D3AA] md:my-0 my-4'>
+            <div className=' md:flex bg-[#050023]  items-center m-2  w-full h-full duration-300' >
 
                 <div className='text-white md:w-[60%] lg:w-[70%] flex flex-col gap-x-4 gap-y-8 px-4 py-10 group'>
                     <div>
@@ -19,8 +19,8 @@ const ServiceCard = ({img, animate, heading, paragraph}) => {
                     </div>
                 </div>
 
-                <div className='w-[60%] md:w-[40%] lg:w-[33%] h-full px-2 mx-auto'>
-                    <img className={`w-full h-full ${animate} `} title='image' src={img} alt='img-animate' >
+                <div className='w-[60%] md:w-[40%] lg:w-[30%] lg:h-[30%] h-full px-2 mx-auto'>
+                    <img className={` ${animate} `} title='image' src={img} alt='img-animate' >
                     </img>
                 </div>
             </div>

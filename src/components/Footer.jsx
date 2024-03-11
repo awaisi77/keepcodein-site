@@ -11,14 +11,14 @@ const Footer = () => {
 
     return (
     <div className=" ">
-            <div className='bg-[#050025] mx-auto bg-gradient-to-t from-[#FC466B]/20 via-[#b50ea2]/20 to-[#050030]/20 mt-32'>
+            <div className='bg-[#050025] mx-auto bg-gradient-to-t from-[#FC466B]/20 via-[#b50ea2]/20 to-[#050030]/20 mt-32 '>
             <footer className="container mx-auto ">
                 <div className="mx-auto max-w-screen-xl space-y-8  pt-16 pb-8  lg:space-y-16 ">
                     <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
                         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-3">
                             <div>
-                                <p className="font-medium text-xl text-white">Quick Links</p>
-                                <ul className="mt-6 space-y-4 text-sm">
+                                <p className="font-medium text-xl text-white px-5 md:px-0">Quick Links</p>
+                                <ul className="mt-6 space-y-4 text-sm px-8 md:px-0">
                                     <li>
                                         <span   className="text-gray-400 text-[17px] hover:text-[#6318F1]   hover:opacity-75 cursor-pointer "> Web Development </span>
                                     </li>
@@ -40,8 +40,8 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div>
-                            <p className="font-medium text-xl text-white">Quick Links</p>
-                                <ul className="mt-6 space-y-4 text-sm text-white">
+                            <p className="font-medium text-xl text-white px-5 md:px-0">Quick Links</p>
+                                <ul className="mt-6 space-y-4 text-sm text-white px-8 md:px-0">
                                     <li>
                                     <span   className="text-gray-400 text-[17px] hover:text-[#6318F1]   hover:opacity-75 cursor-pointer "> My Account </span>
                                     </li>
@@ -60,8 +60,8 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div>
-                            <p className="font-medium text-xl text-white">Company</p>
-                                <ul className="mt-6 space-y-4 text-sm text-white">
+                            <p className="font-medium text-xl text-white px-5 md:px-0">Company</p>
+                                <ul className="mt-6 space-y-4 text-sm text-white px-8 md:px-0">
                                     <li>
                                     <span   className="text-gray-400 text-[17px] hover:text-[#6318F1]   hover:opacity-75 cursor-pointer "> Recent NBews </span>
                                     </li>
@@ -82,7 +82,7 @@ const Footer = () => {
 
                         </div>
                         <div>
-                            <div className="text-lg font-semibold text-white">
+                            <div className="text-lg font-semibold text-white nd:text-start text-center my-4 md:my-0 ">
                                 <h1>Subscribe to our New Website</h1>
                             </div>
                             <div className=" my-4">
