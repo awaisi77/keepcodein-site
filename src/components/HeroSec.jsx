@@ -6,10 +6,8 @@ const HeroSec = () => {
     return (
 
         <div className=' relative mx-auto container'>
-
             <div className='grid lg:grid-cols-2  grid-cols-1  bg-gradient-to-r rounded-3xl from-[#110D2E] to-transparent  lg:py-16 py-10 my-20 xl:my-40 '>
             <div class=" absolute inset-0 translate-x-[10px] -left-20 top-12 z-10  bg-gradient-to-b w-[33%]  rounded-full h-[450px] blur-3xl from-purple-600/60 opacity-30 via-purple-500/60 to-purple-400/60 "></div>
-
                 <div className="flex flex-col text-white justify-center items-center lg lg:py-12 lg:px-10 p-4  rounded-sm  lg:text-left">
                     <h1 className="text-lg sm:text-xl md:text-2xl font-bold lg:text-3xl xl:text-4xl px-5">
                         The Metaverse to Diversity & Customized Technology
@@ -24,11 +22,8 @@ const HeroSec = () => {
                         <button class="px-6 py-2 bg-[#35314D] hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 hover:scale-110 duration-200 text-white font-bold rounded-full transition-transform transform-gpu  hover:shadow-lg">
                             Explore &#160;
                         </button>
-
                     </div>
-
                 </div>
-
                 <div className='  lg:pb-0 py-10  px-2  sm:px-20 md:mx-auto md:w-[80%] lg:px-8 xl:px-20 2xl:px-36'>
                     <LayeredSLider />
                 </div>
