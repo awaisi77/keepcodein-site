@@ -70,7 +70,7 @@ const CustomTech = () => {
 
             <div className="bg-gradient-to-r p-[1px] from-[#FC466B] to-[#3F5EFB] rounded-full">
               <button class="px-6 py-2 bg-[#110D2E] rounded-full text-white font-semibold  transition-transform transform-gpu  hover:shadow-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 hover:scale-110 duration-150">
-                Apply Now
+                Explore More
               </button>
             </div>
           </div>

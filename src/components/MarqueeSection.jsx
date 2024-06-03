@@ -8,7 +8,7 @@ const MarqueeSection = () => {
 
   return (
     <>
-    <div className=''>
+    <div className=' mx-auto'>
     <div className='flex  justify-center items-center py-4 mt-10 '>
         <h1 className='text-3xl font-semibold text-white  text-center'>
         Skilled across 25+ updated tech stacks

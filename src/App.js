@@ -22,7 +22,7 @@ function App() {
       <AboutUs/>
       <CustomTech/> 
       <FAQs/>
-       <ContactUs/>
+      <ContactUs/>
     
 
     <Footer />

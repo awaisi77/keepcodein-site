@@ -4,7 +4,6 @@ import LayeredSLider from './LayeredSLider'
 
 const HeroSec = () => {
     return (
-
         <div className=' relative mx-auto container'>
             <div className='grid lg:grid-cols-2  grid-cols-1  bg-gradient-to-r rounded-3xl from-[#110D2E] to-transparent  lg:py-16 py-10 my-20 xl:my-40 '>
             <div class=" absolute inset-0 translate-x-[10px] -left-20 top-12 z-10  bg-gradient-to-b w-[33%]  rounded-full h-[450px] blur-3xl from-purple-600/60 opacity-30 via-purple-500/60 to-purple-400/60 "></div>
@@ -24,12 +23,11 @@ const HeroSec = () => {
                         </button>
                     </div>
                 </div>
-                <div className='  lg:pb-0 py-10  px-2  sm:px-20 md:mx-auto md:w-[80%] lg:px-8 xl:px-20 2xl:px-36'>
+                <div className='  lg:pb-0 py-10  px-2  sm:px-20 md:mx-auto md:w-[80%] lg:px-8 xl:px-16 2xl:px-20'>
                     <LayeredSLider />
                 </div>
             </div>
         </div>
-
     )
 }
 
