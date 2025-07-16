@@ -75,9 +75,7 @@ const Explore = () => {
               <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Game</li>
               <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200 text-nowrap'>Real Estate</li>
             </ul>
-
           </div>
-
           <div className='order-2 md:order-3'>
             <button class="px-6 py-2 bg-[#6318F1] text-white font-bold rounded-full transition-transform transform-gpu  hover:shadow-lg  hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 hover:scale-105 duration-150">
               Apply Now
@@ -85,7 +83,6 @@ const Explore = () => {
           </div>
 
         </div>
-
         <div className='lg:block hidden'>
           <div class=" absolute inset-0 translate-x-[10px]  top-32 -z-10  bg-gradient-to-b w-80 rounded-full h-96 blur-3xl from-purple-600 opacity-30 via-purple-500 to-purple-400 "></div>
           <div className='flex flex-wrap gap-x-10  gap-y-10 mt-10 justify-center px-20'>
@@ -99,7 +96,6 @@ const Explore = () => {
           </div>
         </div>
       </div>
-
       <div class="lg:hidden xs:flex my-5  overflow-x-scroll no-scrollbar hide-scroll-bar"  >
 
         <div class="flex flex-nowrap gap-x-12 pt-5 px-8 py-10" >
@@ -111,11 +107,8 @@ const Explore = () => {
                   />
                 ))}
         </div>
-
       </div>
-
     </>
-
   )
 }
 

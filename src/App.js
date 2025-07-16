@@ -10,23 +10,18 @@ import Explore from "./components/Explore";
 import HeroSec from "./components/HeroSec";
 
 function App() {
-  
   return (
     <>
       <Header />
-
       <HeroSec />
       <MarqueeSection />
       <Services />
       <Explore />
-      <AboutUs/>
-      <CustomTech/> 
-      <FAQs/>
-      <ContactUs/>
-    
-
-    <Footer />
-
+      <AboutUs />
+      <CustomTech />
+      <FAQs />
+      <ContactUs />
+      <Footer />
     </>
   );
 }

@@ -9,7 +9,7 @@ import { Navigation, Pagination, Autoplay, EffectCoverflow } from 'swiper/module
 import 'swiper/css';
 import Cards from './Cards';
 
-import health from '../assets/CGI/health.png'; 
+import health from '../assets/CGI/health.png';
 
 
 
@@ -22,7 +22,7 @@ const LayeredSLider = () => {
       spaceBetween={0}
 
       loop={true}
-    slidesPerView={2}
+      slidesPerView={2}
       coverflowEffect={{
         rotate: 0,
         stretch: 0,

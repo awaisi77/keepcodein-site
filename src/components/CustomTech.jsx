@@ -36,8 +36,6 @@ const CustomTech = () => {
         <div className='absolute top-5 right-[20%] animate-pulse '>
           <ShadowBox width={60} height={60} border={"border-gradient-r"} />
         </div>
-
-
         <div className='absolute top-0 right-[15%] animate-pulse animate-second opacity-60'>
           <ShadowCircle width={16} height={16} position={"br"} fromColor={"#b46ffe"} toColor={"#050023"} />
         </div>

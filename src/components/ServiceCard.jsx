@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ServiceCard = ({img, animate, heading, paragraph}) => {
+const ServiceCard = ({ img, animate, heading, paragraph }) => {
     return (
         <div className='bg-gradient-to-l from-[#59D3AA] to-[#050023] hover:bg-red-400 duration-300 flex justify-center overflow-hidden py-2 items-center lg:w-[48%] border-l-8 border-[#59D3AA] md:my-0 my-4'>
             <div className=' md:flex bg-[#050023]  items-center m-2  w-full h-full duration-300' >
@@ -11,7 +11,7 @@ const ServiceCard = ({img, animate, heading, paragraph}) => {
                     </div>
                     <div>
                         <p className='text-gray-300'>
-                           {paragraph}
+                            {paragraph}
                         </p>
                     </div>
                     <div className=''>
